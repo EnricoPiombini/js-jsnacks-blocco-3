@@ -14,8 +14,8 @@ while (somma < 50) {
     somma = somma + number
 
     // Verifico con una condizione che la somma dei numeri sia inferiore a 50
-    if (somma > 50) {
-        console.log('La somma è superiore a 50')
+    if (somma >= 50) {
+        console.log('La somma è superiore o uguale a 50')
     }
 
 }
